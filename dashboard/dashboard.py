@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_df = pd.read_csv("../dataset/day.csv")
-hour_df = pd.read_csv("../dataset/hour.csv")
+day_df = pd.read_csv("dataset/day.csv")
+hour_df = pd.read_csv("dataset/hour.csv")
 
 
 day = day_df.copy()
